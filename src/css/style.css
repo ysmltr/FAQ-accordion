@@ -25,8 +25,8 @@
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     overflow: hidden;
-    background-color: hsl(275, 100%, 97%);
-    color: var(--primary-font-color);
+    background-color: var(--light-pink);
+    color: var(--dark-purple);
   }
 
 
@@ -34,9 +34,9 @@
     content: "";
     position: absolute;
     top: 0;
-    
+    background: url("/assets/images/background-pattern-desktop.svg");
     width: 100vw;
-    height: 35%;
+    height: 45%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,4 +66,18 @@
 
   .alt-container{
     margin: 40px 40px 0 40px;
+  }
+
+  .header{
+    margin-bottom: 1.5rem;
+  }
+
+  .star-icon{
+    width: 35px;
+  }
+
+  h1{
+    font-size: 55px;
+  font-weight: 700;
+  margin-left: 20px;
   }
