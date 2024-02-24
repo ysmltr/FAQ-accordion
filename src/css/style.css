@@ -81,3 +81,33 @@
   font-weight: 700;
   margin-left: 20px;
   }
+
+  .plus-icon{
+    float: right;
+    width: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  h2:hover {
+    color: var(--bright-purple);
+    cursor: pointer;
+    transition: 0.9s;
+  }
+
+  p {
+    color: var(--grayish-purple);
+    padding-top: 22px;
+    line-height: 1.5;
+  }
+
+  .bottom-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-pink);
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
