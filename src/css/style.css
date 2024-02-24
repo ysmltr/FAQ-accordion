@@ -63,3 +63,7 @@
   ul li{
     list-style: none;
   }
+
+  .alt-container{
+    margin: 40px 40px 0 40px;
+  }
